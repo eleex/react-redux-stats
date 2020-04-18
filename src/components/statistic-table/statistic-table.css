@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+thead {
+  font-size: 18px;
+  line-height: 32px;
+  background-color: #84abff;
+  color: #fff;
+}
+
+thead th {
+  font-weight: 100;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #d6d6d6;
+}
+
+.table__id{
+  padding: 0;
+  text-align: center;
+}
+
+tr td {
+  padding-left: 25px;
+  text-align: left;
+}

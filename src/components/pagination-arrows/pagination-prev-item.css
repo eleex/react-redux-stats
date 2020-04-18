@@ -1,0 +1,24 @@
+.pagination__prev-item {
+  display: block;
+  width: 36px;
+  height: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #fff;
+  background-image: url("./left-arrow.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pagination__prev-item:hover,
+.pagination__prev-item:focus {
+  background-image: url("./left-arrow-hover.svg");
+  cursor: pointer;
+  outline: none;
+}
+
+.pagination__prev-item:disabled {
+  background-image: url("./left-arrow-disabled.svg");
+  cursor: default;
+}

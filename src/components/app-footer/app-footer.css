@@ -1,0 +1,20 @@
+.footer {
+  margin-top: auto;
+  background-color: #4870c7;
+}
+
+.footer__wrapper {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer__logo{
+  font-size: 20px;
+  color: inherit;
+  text-decoration: none;
+}

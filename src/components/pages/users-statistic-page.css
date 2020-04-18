@@ -1,0 +1,10 @@
+.users__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.users__header {
+  margin: 15px 0;
+  font-size: 30px;
+  line-height: 32px;
+}

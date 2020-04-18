@@ -1,0 +1,24 @@
+.pagination__next-item {
+  display: block;
+  width: 36px;
+  height: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: #fff;
+  background-image: url("./right-arrow.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pagination__next-item:hover,
+.pagination__next-item:focus {
+  background-image: url("./right-arrow-hover.svg");
+  cursor: pointer;
+  outline: none;
+}
+
+.pagination__next-item:disabled {
+  background-image: url("./right-arrow-disabled.svg");
+  cursor: default;
+}
