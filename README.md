@@ -1,1 +1,1 @@
-https://eleex.github.io/react-redux-stats
+https://eleex.github.io/react-redux-stats/
